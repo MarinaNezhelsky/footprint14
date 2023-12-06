@@ -1,0 +1,66 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TMGsp Support</title>
+</head>
+<style>
+	form {
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        label, input, select, textarea, button, body {
+            font-family: 'Segoe UI', sans-serif;
+
+        }
+
+        body {
+            font-size: 16px;
+	    text-align: center;
+	    background-image: url('https://github.com/MarinaNezhelsky/footprint14/blob/main/backround.jpg?raw=true');
+            background-size: cover; /* Adjust the sizing as needed */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+</style>
+<body>
+<br>
+	<h1 style="color:white" >TMGsp PowerBI Reports Support</h1>
+<br>
+	<h3>Form for new feature requests for PowerBI reports or supporting issues.</h3> 
+
+<form method="post" action="https://script.google.com/macros/s/AKfycbzrts8402JhSCRk02k3Oflz_qSRREh5vZx5KIfj3ytEcpmww2duSWmuXUfr7bzmbIc9/exec" name="submit-to-google-sheet">
+	<div>
+	<lable for="name"> Your Name:</lable>
+	<input type="text" id="name" name="name" placeholder="Your Name" required>
+	</div>
+<br>
+	<div>
+	<lable for="email"> Your Email Address:</lable>
+	<input type="email" id="email" name="email" placeholder="Your Email" required>
+	</div>
+<br>
+
+	<div>
+	<lable for="report"> Select Report: </lable>
+	<select id="report" name="report" required>
+		<option value="TRDD Indicator">TRDD Indicator</option>
+		<option value="ETS/RTS RDD Opportunieties">ETS/RTS RDD Opportunieties  </option>
+		<option value="EMS Health">EMS Health  </option>
+		<option value="EMS Changes">EMS Changes </option>
+		<option value="Capacity Validation">Capacity Validation </option></select>
+	</div>
+<br>
+	<lable for="request"> Your Request: </lable>
+<br>
+	<textarea name="request" id="request" placeholder="Write your request" cols="100" rows="10"></textarea>
+<br><br>
+
+	<input type="reset">
+	<input type="submit">
+</form>
+	<script scr=Google Sheet.js"></script>
+
+</body>
+</html>
